@@ -1,0 +1,226 @@
+{
+  "project_info": {
+    "name": "Kuchoriya Techsoft Redesign",
+    "tagline": "AI-Driven Digital Solutions for Modern Businesses",
+    "company": "Kuchoriya TechSoft",
+    "established": 2009,
+    "brand_identity": "Stark Monochrome Modern Tech (Award-Worthy High-Contrast Swiss/Editorial Minimalist)",
+    "primary_conversion_goal": "Drive Consultation & Discovery Calls"
+  },
+  "typography": {
+    "heading_font": "Outfit, 'Cabinet Grotesk', system-ui, sans-serif",
+    "body_font": "Inter, 'DM Sans', system-ui, sans-serif",
+    "mono_font": "'JetBrains Mono', 'Fira Code', monospace",
+    "hierarchy": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.08]",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight leading-[1.15]",
+      "h3_card": "text-xl sm:text-2xl font-semibold tracking-tight",
+      "h4_sub": "text-lg sm:text-xl font-medium",
+      "body_lg": "text-lg sm:text-xl text-zinc-400 font-normal leading-relaxed",
+      "body_main": "text-base text-zinc-300 leading-relaxed",
+      "caption": "text-xs uppercase tracking-[0.2em] font-mono text-zinc-500 font-medium"
+    },
+    "anti_slop_rules": [
+      "DO NOT use Inter or Roboto for main headings.",
+      "Never exceed text-6xl (3.75rem / 60px) for headlines to ensure strict visual balance.",
+      "Pair bold headings with JetBrains Mono overlines in uppercase with wide tracking (tracking-[0.2em]).",
+      "Ensure heading and subtitle size jumps do not exceed 2 Tailwind scale steps."
+    ]
+  },
+  "colors": {
+    "archetype": "Archetype 4: Swiss & High-Contrast (Monochrome Luxury & Precision)",
+    "palette": {
+      "background_dark": "#0A0A0C",
+      "background_card_dark": "#121216",
+      "background_card_hover": "#1A1A22",
+      "foreground_white": "#FFFFFF",
+      "text_muted": "#A1A1AA",
+      "text_subtle": "#71717A",
+      "border_dark": "#27272A",
+      "border_bright": "#3F3F46",
+      "accent_silver": "#E4E4E7",
+      "accent_emerald_dot": "#10B981",
+      "overlay_scrim": "rgba(10, 10, 12, 0.75)"
+    },
+    "rules": [
+      "Strict monochrome palette (#000000 / #0A0A0C base with pure white #FFFFFF for high key contrast).",
+      "Tint neutrals with 2% cool slate blue (#121216) to avoid flat digital dead grey.",
+      "No color gradients or bright rainbow colors — depth is built via stroke borders, noise texture, and layered glass cards.",
+      "Buttons and active states use pure white filled backgrounds with black high-contrast text or 1px glowing white borders."
+    ]
+  },
+  "spacing_and_layout": {
+    "spacing_scale": "p-4, p-6, p-8, p-12, p-16, p-20, p-24, p-32",
+    "container_padding": "px-4 sm:px-6 lg:px-12 max-w-7xl mx-auto",
+    "bento_grid_strategy": "Tetris Mode A: Asymmetrical col-span mixes (col-span-full md:col-span-8 row-span-2, col-span-4, etc.) with wide gap-6 to gap-8 gaps.",
+    "section_rhythm": "py-20 lg:py-32 between major sections to let content breathe effortlessly."
+  },
+  "surface_and_textures": {
+    "glassmorphism": "backdrop-blur-xl bg-zinc-950/80 border border-zinc-800/80 shadow-2xl",
+    "card_style": "bg-zinc-900/50 border border-zinc-800/80 hover:border-zinc-700 transition-all duration-300 rounded-2xl p-6 lg:p-8",
+    "tracing_beam_border": "Subtle animated border shimmer or high-key glowing stroke on feature highlights and primary CTAs.",
+    "noise_overlay": "Optional SVG subtle noise or radial grain texture behind hero to kill flat dark pixels."
+  },
+  "navigation_and_header": {
+    "type": "Sticky Floating Glass Nav",
+    "classes": "fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-zinc-950/85 border-b border-zinc-800/80 py-4 px-6 sm:px-12",
+    "components": [
+      "Brand Mark: Minimalist geometric 'K' + Techsoft vector logo with pulse dot",
+      "Links: Services, AI Solutions, Tech Stack, Process, Portfolio, FAQ",
+      "CTA Button: 'Book Discovery Call' (data-testid='nav-discovery-cta')",
+      "Mobile Menu: Fullscreen slide-over sheet with high-contrast menu items"
+    ]
+  },
+  "key_sections": [
+    {
+      "section_id": "hero",
+      "title": "Kinetic Hero Section",
+      "headline": "Engineering Next-Gen AI & Custom Enterprise Software Solutions",
+      "subheadline": "Since 2009, Kuchoriya TechSoft powers global enterprises and high-growth startups with autonomous AI agents, LLM pipelines, and resilient digital architectures.",
+      "features": [
+        "Interactive 3D particle canvas / ambient node web hero backdrop",
+        "Line-by-line staggered text reveal using framer-motion",
+        "Live stats ticker bar (1000+ Projects Delivered | 100+ Industries | 5.0 Rated on Clutch & GoodFirms | 40+ Countries Covered)",
+        "Primary CTA: 'Schedule Free Consultation' (data-testid='hero-schedule-cta')",
+        "Secondary CTA: 'Explore AI Capabilities' (data-testid='hero-explore-cta')"
+      ]
+    },
+    {
+      "section_id": "trust_awards",
+      "title": "Trust, Badges & Social Proof Bar",
+      "items": [
+        "Top Mobile App Development Company 2024",
+        "Best Software Development Company India & UAE 2023",
+        "Excellence in Digital Transformation Services 2024",
+        "Rated 5.0 on Clutch, GoodFirms & TopDevelopers"
+      ]
+    },
+    {
+      "section_id": "services_bento",
+      "title": "Core Expertise Bento Grid",
+      "layout": "Asymmetric Bento Grid (Mode A)",
+      "services": [
+        "AI Agent Development & RAG Pipelines (Dominant Hero Card)",
+        "Custom Software & Enterprise Application Engineering",
+        "Digital Transformation & Business Automation",
+        "Cloud Infrastructure, DevOps & AIOps",
+        "E-Commerce & Platform Engineering",
+        "Dedicated Staff Augmentation & Agile Teams",
+        "Fractional CTO & Strategic Tech Advisory"
+      ]
+    },
+    {
+      "section_id": "tech_stack_matrix",
+      "title": "Interactive AI & Software Tech Stack",
+      "interactive": "Tabbed category filter (AI & LLMs, Frontend, Backend, Mobile, Cloud DB, DevOps)",
+      "search_filter": "Real-time tech search input field"
+    },
+    {
+      "section_id": "ai_process_timeline",
+      "title": "6-Step AI & Software Delivery Framework",
+      "steps": [
+        "01. Discovery & Strategy Alignment",
+        "02. Architecture & Model Selection",
+        "03. Data Preparation & Engineering",
+        "04. Iterative Agile Development",
+        "05. Rigorous Testing & Security Audit",
+        "06. Deployment, AIOps & Scaling"
+      ]
+    },
+    {
+      "section_id": "case_studies",
+      "title": "Featured Case Studies & Industry Impact",
+      "cards": [
+        "Enterprise ERP Transformation for Global Industrial Supply (James Mitchell, CEO)",
+        "Autonomous RAG AI Assistant for Fintech Analytics Platform",
+        "Cross-Platform Telehealth & Remote Care Management Suite"
+      ]
+    },
+    {
+      "section_id": "discovery_estimator",
+      "title": "Interactive Discovery & Scope Estimator Widget",
+      "purpose": "High-conversion micro-app allowing clients to pick project scope, timeline, tech requirements, and get an instant custom consultation estimate summary."
+    },
+    {
+      "section_id": "faq_seo",
+      "title": "SEO/AEO/GEO Accordion Section",
+      "questions": [
+        "How fast can Kuchoriya TechSoft deploy dedicated AI developers or project teams?",
+        "What AI models and LLM frameworks do you specialize in?",
+        "How do you ensure data security, privacy, and IP protection for custom software?",
+        "What are the typical engagement models for enterprise digital transformation?"
+      ]
+    },
+    {
+      "section_id": "consultation_form",
+      "title": "End-to-End Discovery Call Contact Form",
+      "fields": ["Full Name", "Business Email", "Phone / WhatsApp", "Project Type / Services Needed", "Estimated Budget Range", "Project Overview Message"],
+      "action": "Submits directly via POST to backend API and saves inquiry into database, displaying instant sonner toast feedback."
+    },
+    {
+      "section_id": "footer",
+      "title": "Swiss Editorial Footer",
+      "contents": [
+        "Massive Kuchoriya TechSoft brand wordmark",
+        "Global Office Locations (Mississauga Canada HQ & Jaipur India R&D Hub)",
+        "Direct Contact Details: info@kuchoriyatechsoft.com | +1 (650) 488-7911 | +91-8003156735",
+        "Copyright 2026 Kuchoriya TechSoft. All rights reserved."
+      ]
+    }
+  ],
+  "media_assets": {
+    "image_urls": [
+      {
+        "category": "hero_workspace",
+        "url": "https://images.unsplash.com/photo-1629904853716-f0bc54eea481?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "description": "Modern high-tech software engineering studio with developers in dark aesthetic workspace"
+      },
+      {
+        "category": "developer_focused",
+        "url": "https://images.pexels.com/photos/5483057/pexels-photo-5483057.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Focused software engineer analyzing code in modern office space"
+      },
+      {
+        "category": "minimalist_laptop_desk",
+        "url": "https://images.pexels.com/photos/12200696/pexels-photo-12200696.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Black and white laptop setup representing remote staff augmentation and high productivity"
+      },
+      {
+        "category": "tech_monitor_setup",
+        "url": "https://images.unsplash.com/photo-1579882392185-581038fbc8c5?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "description": "Black flat screen code monitor on wooden desk for AI engineering preview"
+      }
+    ]
+  },
+  "testing_and_qa": {
+    "required_data_testids": [
+      "nav-brand-logo",
+      "nav-services-link",
+      "nav-ai-solutions-link",
+      "nav-tech-stack-link",
+      "nav-process-link",
+      "nav-portfolio-link",
+      "nav-faq-link",
+      "nav-discovery-cta",
+      "hero-schedule-cta",
+      "hero-explore-cta",
+      "estimator-next-button",
+      "estimator-submit-button",
+      "contact-form-name-input",
+      "contact-form-email-input",
+      "contact-form-phone-input",
+      "contact-form-service-select",
+      "contact-form-message-textarea",
+      "contact-form-submit-button",
+      "faq-accordion-item"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Ensure all interactive elements have data-testid attributes attached for testing.",
+    "Use Lenis smooth scrolling for high-end momentum scroll feel.",
+    "Utilize framer-motion for kinetic hero line reveals and scroll entrance animations.",
+    "Implement Sonner toast notifications for contact form submission feedback.",
+    "Ensure 100% responsiveness across desktop, tablet, and mobile with no horizontal overflow.",
+    "Maintain strict monochrome high-contrast aesthetic with sharp typography and subtle 1px borders."
+  ]
+}
